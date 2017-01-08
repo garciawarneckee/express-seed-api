@@ -1,0 +1,20 @@
+{
+  "name": "express-api-seed",
+  "version": "0.0.1",
+  "description": "An Express Rest API Seed",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api",
+    "rest"
+  ],
+  "author": "Esteban Garcia Warnecke",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
