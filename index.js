@@ -1,6 +1,9 @@
-var express = require("express");
-var users = require("./controllers/users.controller")
-var app = express();
+var express            = require("express");
+var users                 = require("./controllers/users.controller");
+var app                    = express();
+var bodyParser     = require("body-parser");
+
+app.use(bodyParser.json());
 
 app.get("/", function(req,res) {
     res.send("Hello World!");
