@@ -1,5 +1,5 @@
 var express            = require("express");
-var users                 = require("./controllers/users.controller");
+var users                 = require("./app/controllers/users.controller");
 var app                    = express();
 var bodyParser     = require("body-parser");
 
@@ -11,6 +11,6 @@ app.get("/", function(req,res) {
 
 app.use("/users", users);
 
-app.listen(3000, function(){
+app.listen(5000, function(){
     console.log("App listening on port 3000!");
 })
